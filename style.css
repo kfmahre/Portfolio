@@ -1,0 +1,82 @@
+body {
+	background: url(dark_matter.png) repeat;
+	font: 300 1em 'Source Code Pro', Geneva, sans-serif;
+	color: #feb700;
+	margin: 0;
+	text-shadow: 1px 1px gray;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.text-muted {
+	color: #feb700;
+}
+
+.text-thin {
+	font-weight: 200;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+a {
+	color: #ff6322;
+	text-decoration: none;
+}
+
+a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+.logo {
+	max-width: 8em;
+	background: transparent;
+	border: 5px solid #ff6322;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin: 15px 0 0 0;
+}
+
+header {
+	border-bottom: 5px solid gray;
+	margin: 0 0 1% 0;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+
+	body {
+		width: 80%;
+		margin: 0 10% 0 10%;
+	}
+
+	.logo {
+		margin: 15px 0 15px 0;
+		float: left;
+	}
+
+	header {
+		text-align: right;
+	}
+
+	h2 {
+		text-align: left;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.logo {
+		max-width: 10em;
+	}
+
+}
