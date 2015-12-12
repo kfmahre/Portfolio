@@ -1,5 +1,5 @@
-body {
-	background: url(dark_wall.png) repeat;
+html, body {
+	background: #000000;
 	font: 300 1em 'Source Code Pro', Geneva, sans-serif;
 	color: #feb700;
 	margin: 0;
@@ -7,6 +7,11 @@ body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+#front {
+	position: relative;
+	z-index: 1;
 }
 
 .text-muted {

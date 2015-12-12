@@ -4,61 +4,81 @@
 
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Latest compiled and minified CSS -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400,200" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="clouds.css">
 		<title>Kyle's Portfolio</title>
 	</head>
 
+
 	<body class="container-fluid">
 
-		<header class="row">
-			<div class="col-xs-12 col-sm-3 col-md-3">
-				<img class="logo" src="udacity_logo.svg" alt="Udacity Logo">
-			</div>
-			<div class="col-xs-12 col-sm-9 col-md-9 text-uppercase">
-				<h1 class="title-super text-thin">Kyle Mahre</h1>
-				<h4 class="text-thin">Front-end Apprentice</h4>
-			</div>
-		</header>
+		<section id="back">
 
-		<div class="row">
-			<div class="col-xs-12">
-				<img class="img-responsive" src="sunset.jpg" alt="Picture of sunset">
-			</div>
-		</div>
+				<header class="row" id="front">
+					<div class="col-xs-12 col-sm-3 col-md-3">
+						<img class="logo" src="udacity_logo.svg" alt="Udacity Logo">
+					</div>
+					<div class="col-xs-12 col-sm-9 col-md-9 text-uppercase">
+						<h1 class="title-super text-thin">Kyle Mahre</h1>
+						<h4 class="text-thin">Front-end Apprentice</h4>
+					</div>
+				</header>
 
-		<div class="row">
-			<div class="col-xs-12">
-				<h2 class="featured_work text-thin text-muted text-uppercase">Featured Work</h2>
-			</div>
-		</div>
+				<div class="row" id="front">
+					<div class="col-xs-12">
+						<img class="img-responsive" src="sunset.jpg" alt="Picture of sunset">
+					</div>
+				</div>
 
-		<div class="row text-center">
-			<div class="col-xs-12 col-sm-4 col-md-4">
-				<img class="img-responsive" src="Resume.jpg" alt="Picture"/>
-				<a href="http://kfmahre.github.io/Resume"><h3>Interactive Resume</h3></a>
-				<p>https://github.com/kfmahre/Resume</p>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-4">
-				<img class="img-responsive" src="aGame2.png" alt="Picture"/>
-				<a href="https://github.com/kfmahre/arcade-game"><h3>Classic Arcade Game</h3></a>
-				<p>https://github.com/kfmahre/arcade-game</p>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-4">
-				<img class="img-responsive" src="clouds3.jpg" alt="Picture"/>
-				<a href="url"><h3>Bokeh</h3></a>
-				<p>https://github.com/udacity/Bokeh/</p>
-			</div>
-		</div>
+				<div class="row" id="front">
+					<div class="col-xs-12">
+						<h2 class="featured_work text-thin text-muted text-uppercase">Featured Work</h2>
+					</div>
+				</div>
+
+				<div class="row text-center" id="front">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<img class="img-responsive" src="Resume.jpg" alt="Picture"/>
+						<a href="http://kfmahre.github.io/Resume"><h3>Interactive Resume</h3></a>
+						<p>https://github.com/kfmahre/Resume</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<img class="img-responsive" src="aGame2.png" alt="Picture"/>
+						<a href="https://github.com/kfmahre/arcade-game"><h3>Classic Arcade Game</h3></a>
+						<p>https://github.com/kfmahre/arcade-game</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<img class="img-responsive" src="clouds3.jpg" alt="Picture"/>
+						<a href="url"><h3>Bokeh</h3></a>
+						<p>https://github.com/udacity/Bokeh/</p>
+					</div>
+				</div>
+
+				<div id="cloud-container">
+					<img id="cloud-1" src="cloud-1.png" class="force-show" style="top: 9.93333px; left: 484px;">
+					<img id="cloud-2" src="cloud-2.png" class="force-show" style="top: 535.6px; left: 84px;">
+					<img id="cloud-3" src="cloud-3.png" class="force-show" style="top: 897.1px; left: 584px;">
+					<img id="cloud-4" src="cloud-4.png" class="force-show" style="top: 720.1px; left: 44px;">
+					<img id="cloud-5" src="cloud-5.png" class="force-show" style="top: 1224.43px; left: -40px;">
+					<img id="cloud-6" src="cloud-6.png" class="force-show" style="top: 2005.77px; left: 325px;">
+					<img id="cloud-7" src="cloud-7.png" class="force-show" style="top: 2218.77px; left: 725px;">
+					<img id="cloud-8" src="cloud-8.png" class="force-show" style="top: 2177.97px; left: 570px;">
+					<img id="cloud-9" src="cloud-9.png" class="force-show" style="top: 2654px; left: 640px;">
+				</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="parallax-clouds.js"></script>
+			</section>
+		</section>
 
 	</body>
+
 
 </html>
