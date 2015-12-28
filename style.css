@@ -3,7 +3,7 @@ html, body {
 	font: 300 1em 'Source Code Pro', Geneva, sans-serif;
 	color: #00e600;
 	margin: 0;
-	text-shadow: 1px 1px gray;
+	text-shadow: 1px 1px black;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -14,19 +14,9 @@ section.content {
 }
 
 section.parallax {
-  max-height: 400px;
-  background-position: 50% 50%;
   background-image: url("graphy-inv-g.png");
+  background-position: 50% 50%;
   background-repeat: repeat;
-  background-attachment: fixed;
-  -webkit-background-size: fill;
-  -moz-background-size: fill;
-  -o-background-size: fill;
-  background-size: fill;
-}
-
-section.parallax:last-child {
-  max-height: 2000px;
 }
 
 .text-muted {
@@ -42,13 +32,24 @@ section.parallax:last-child {
 }
 
 a {
-	color: #00cc00;
+	color: #4dff4d;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #4dff4d;
 	text-decoration: none;
+}
+
+a:hover #projectPic {
+	border: 2px solid #4dff4d;
+	border-bottom: 5px solid #00cc00;
+}
+
+a:hover h3 {
+	color: black;
+	background-color: #4dff4d;
+	text-shadow: 1px 1px #00cc00;
+
 }
 
 .logo {
@@ -91,6 +92,10 @@ h2 {
 
 	h2 {
 		text-align: left;
+	}
+
+	#projects p {
+		font-size: 10px;
 	}
 
 }
