@@ -15,7 +15,7 @@ section.content {
 
 section.parallax {
   background-image: url("graphy-inv-g.png");
-  background-position: 50% 50%;
+  background-position: 0 0;
   background-repeat: repeat;
 }
 
