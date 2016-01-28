@@ -1,0 +1,254 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	font: 300 1em 'Source Code Pro', Geneva, sans-serif;
+	background-color: #ffffff;
+	background-image: url("escheresque.png");
+	color: #8c8c8c;
+}
+
+header, footer {
+	margin: 5px 0 5px 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+section.content {
+background-color: #333333;
+background-image: url("connect.png");
+}
+
+section.parallax {
+background-color: #000000;
+background-image: url("graphy.png");
+}
+
+.name-logo-div {
+	display: block;
+	text-align: center;
+}
+
+.intro {
+	padding: 0 5% 0 5%;
+	color: #4d4d4d;
+}
+
+.text-muted {
+	color: #737373;
+}
+
+.text-thin {
+	font-weight: 200;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:hover #projectPic {
+	border: 1px solid #ffffff;
+}
+
+a:hover h3 {
+	color: black;
+	background-color: #e6e6e6;
+	text-shadow: 1px 1px #a6a6a6;
+
+}
+
+.logo {
+	max-width: 7em;
+	background: #e6e6e6;
+	border: 2px solid #a6a6a6;
+	margin: 20% auto 20% auto;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.name {
+	margin: auto auto 20% auto;
+}
+
+#projectPic {
+	border: 1px solid #a3a3a3;
+}
+
+#projects {
+	margin: 0 10% 0 10%;
+}
+
+/*=============
+=  Icon links =
+=============*/
+
+.buttons {
+    float: left;
+    margin-left: calc((100% - 169.2px) / 2);
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: none;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  text-indent: -9999px;
+  background-color: #595959;
+  z-index: 0;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.home {
+  background: url("home2.png");
+  background-image: url("home2.png");
+  background-size: 100%;
+  background-position: 0 0;
+}
+
+.home:hover {
+  background-position: 0 -50px;
+}
+
+.github {
+  background: url("github2.png");
+  background-image: url("github2.png");
+  background-size: 100%;
+  background-position: 0 0;
+  z-index: inherit;
+}
+
+.github:hover {
+  background-position: 0 -50px;
+}
+
+.linkedin {
+  background: url("linkedin2.png");
+  background-image: url("linkedin2.png");
+  background-size: 100%;
+  background-position: 0 0;
+  z-index: inherit;
+}
+
+.linkedin:hover {
+  background-position: 0 -50px;
+}
+
+/*====================
+= end of icon styles =
+====================*/
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+	/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width : 480px) {
+
+	body {
+		width: 100%;
+	}
+
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width : 768px) {
+
+	body {
+		width: 80%;
+		margin: 0 10% 0 10%;
+	}
+
+	.name-logo-div {
+		text-align: left;
+	}
+
+	.logo {
+		margin: 15px 0 15px 0;
+		float: left;
+		max-width: 10em;
+	}
+
+	.name {
+		float: right;
+		margin: auto 15px auto auto;
+		max-width: calc(50% - 190px)
+	}
+
+	header {
+		text-align: right;
+	}
+
+	h2 {
+		text-align: left;
+	}
+
+	#projects p {
+		font-size: 10px;
+	}
+
+	#projects {
+		margin: 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width : 992px) {
+
+	.logo {
+
+	}
+
+	}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width : 1200px) {
+
+	body {
+		width: 60%;
+		margin: 0 20% 0 20%;
+	}
+
+}
