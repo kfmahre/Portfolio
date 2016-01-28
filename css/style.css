@@ -104,6 +104,10 @@ a:hover h3 {
 	margin: 0 10% 0 10%;
 }
 
+#projects p {
+	font-size: 12px;
+}
+
 /*=============
 =  Icon links =
 =============*/
@@ -223,7 +227,7 @@ a:hover h3 {
 	}
 
 	#projects p {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	#projects {
