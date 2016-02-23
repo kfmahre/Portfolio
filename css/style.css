@@ -33,11 +33,17 @@ body {
 
 section.content {
 background-color: #333333;
+border: 1px dashed #555555;
 }
 
 section.parallax {
 background-color: #000000;
 background-image: url("darkgraph.png");
+}
+
+.border-dashed {
+	width: 100%;
+	border: 1px dashed #333333;
 }
 
 .name-logo-div {
@@ -219,15 +225,19 @@ a:hover #projectPic {
 	}
 
 	.logo {
-		margin: 15px 0 15px 0;
+		margin: 20px 0 20px 20px;
 		float: left;
 		max-width: 10em;
 	}
 
 	.name {
 		float: right;
-		margin: auto 15px auto auto;
-		max-width: calc(50% - 190px)
+		margin: 20px 20px auto auto;
+		max-width: calc(50% - 190px);
+	}
+
+	.name h1 {
+		font-size: 46px;
 	}
 
 	header {
@@ -269,6 +279,10 @@ a:hover #projectPic {
 	body {
 		width: 60%;
 		margin: 0 20% 0 20%;
+	}
+
+	.name {
+		margin-top = 100
 	}
 
 }
