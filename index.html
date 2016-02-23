@@ -8,8 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,400' rel='stylesheet' type='text/css'>
-	<title>Kyle's Portfolio</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<title>Project 1: Responsive Portfolio</title>
 </head>
 
 
@@ -22,6 +22,8 @@
 			<a href="https://www.linkedin.com/in/kfmahre" class="icon linkedin">linkedin</a>
 		</div>
 	</header>
+
+<div class="rounded-corners">
 
 	<section class="parallax row">
 		<div class="name-logo-div">
@@ -37,35 +39,37 @@
 		</div>
 	</section>
 
-	<section class="content row">
+	<section class="content row gray-light">
 		<div class="intro">
-			<h2 class="text-thin text-muted">About:</h2>
-			<p>This is my portfolio project for my Udacity Front-end developer course. This website will evelove as my skills do.</p>
-			<p>I plan on adding more features, but primarily now it is serving as a hub for other projects I'm also working on.</p>
-			<p>Soon, I'll add more links to the sites that have been most helpful to me in learning web development.</p>
-			<p>Check my stuff out!</p>
+			<h2 class="text-thin">About:</h2>
+			<p>This is my portfolio project for my Udacity Front-end-developer course.</p>
+			<p>I started this project </p>
+			<p>I completed this project a long time ago, and now it reminds me of how much I have learned.</p>
+			<p>Once I'm done with my final project, I'll add some JavaScript that will finally take this thing off.</p>
 		</div>
 	</section>
 
 	<section class="parallax row">
 		<div>
 			<div class="col-xs-12">
-				<h2 class="featured_work text-thin text-muted text-uppercase">Featured Work:</h2>
+				<h3 class="featured_work text-thin text-uppercase">Featured Work:</h3>
 			</div>
 		</div>
 
 		<div class="row text-center" id="projects">
 			<div class="col-xs-12 col-sm-4 col-md-4">
-				<a href="http://kfmahre.github.io/Resume"><img class="img-responsive" src="images/resume.jpg" id="projectPic" alt="Picture"/><h3 class="projectLink">Interactive Resume</h3></a><p>https://github.com/kfmahre/Resume</p>
+				<a href="http://kfmahre.github.io/Resume" class="project-link"><img class="img-responsive img-rounded" src="images/resume.jpg" id="projectPic" alt="Picture"/><h4>Project-2: Interactive Resume</h4></a><p>https://github.com/kfmahre/Resume</p>
 			</div>
 			<div class="col-xs-12 col-sm-4 col-md-4">
-				<a href="https://github.com/kfmahre/arcade-game"><img class="img-responsive" src="images/aGame2.png" id="projectPic" alt="Picture"/><h3>Classic Arcade Game</h3></a><p>https://github.com/kfmahre/arcade-game</p>
+				<a href="https://github.com/kfmahre/arcade-game" class="project-link"><img class="img-responsive img-rounded" src="images/aGame2.png" id="projectPic" alt="Picture"/><h4>Project-3: Classic Arcade Game Clone</h4></a><p>https://github.com/kfmahre/arcade-game</p>
 			</div>
 			<div class="col-xs-12 col-sm-4 col-md-4">
-				<a href="url"><img class="img-responsive" src="images/clouds3.jpg" id="projectPic" alt="Picture"/><h3>Bokeh</h3></a><p>https://github.com/udacity/Bokeh/</p>
+				<a href="url" class="project-link"><img class="img-responsive img-rounded" src="images/clouds3.jpg" id="projectPic" alt="Picture"/><h4>Bokeh</h4></a><p>https://github.com/udacity/Bokeh/</p>
 			</div>
 		</div>
 	</section>
+
+</div>
 
 	<footer class="row">
 		<div class="buttons">
@@ -77,27 +81,12 @@
 
 </body>
 
-<script src="js/jQuery.js" type="text/javascript"></script>
+<script src="js/knockout-3.4.0.js"></script>
 <script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/app.js"></script>
 
 	<script>
-		(function(){
 
-		var parallax = document.querySelectorAll(".parallax"),
-			speed = 0.4;
-
-			window.onscroll = function(){
-			[].slice.call(parallax).forEach(function(el,i){
-
-			var windowYOffset = window.pageYOffset,
-				elBackgrounPos = "0 " + (windowYOffset * speed) + "px";
-
-		el.style.backgroundPosition = elBackgrounPos;
-
-		});
-	};
-
-	})();
 	</script>
 
 
