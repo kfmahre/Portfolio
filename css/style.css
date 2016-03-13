@@ -113,7 +113,7 @@ a:hover #projectPic {
 	text-align: center;
 }
 
-#projectPic {
+.projectPic {
 	border: 1px solid #555555;
 }
 
