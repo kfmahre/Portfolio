@@ -52,10 +52,10 @@ var projects = [
 projects.forEach(function(project){
 //col-xs-12 col-sm-4 col-md-4
 //projectPic img-responsive img-rounded
-	var projectHTML = '<div class="project-slide col-xs-12 col-sm-4 col-md-4"><a href='+project.projectUrl
-	+' class="project-link"><img id="projectPic" class="img-responsive img-rounded" src='
-	+project.projectImg+' alt="Picture"/><h4>'+project.name
-	+'</h4></a><p>'+project.gitUrl+'</p></div>';
+	var projectHTML = '<div class="project-slide"><a href='+project.projectUrl+
+	' "><img class="img-responsive img-rounded" id="projectPic" src='+
+	project.projectImg+' alt="Picture"/><h4>'+project.name+
+	'</h4></a><p>'+project.gitUrl+'</p></div>';
 
 	$('#projects').append(projectHTML);
 
@@ -66,14 +66,34 @@ $(document).ready(function(){
 		autoplay: true,
 		infinite: true,
 		dots: true,
-		slidesToShow: 3,
-		slidesToScroll: 3,
+		arrows: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		mobileFirst: true,
 		responsive: [
+			{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				arrows: true
+				}
+			},
 			{
 			breakpoint: 768,
 			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows: true
+				}
+			},
+			{
+			breakpoint: 480,
+			settings: {
 				slidesToShow: 1,
-				slidesToScroll: 1
+				slidesToScroll: 1,
+				dots: true,
+				arrows: false
 				}
 			}
 		]

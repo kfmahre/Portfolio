@@ -12,8 +12,8 @@ html {
 
 html, body {
   font-family: 'Lato', sans-serif;
-  background-color: #555555;
-  color: #eaa13c;
+  background-color: #53adc6;
+  color: #00b8e6;
   font-weight: 500;
 }
 
@@ -22,7 +22,7 @@ header, footer {
 }
 
 h2 {
-  color: #eaa13c;
+  color: #66e0ff;
   text-align: center;
 }
 
@@ -32,8 +32,9 @@ body {
 }
 
 section.content {
-  background-color: #333333;
-  border: 1px dashed #555555;
+  background-color: #003d4d;
+  border-top: 1px solid #00b8e6;
+  border-bottom: 1px solid #00b8e6;
 }
 
 section.parallax {
@@ -43,7 +44,7 @@ section.parallax {
 
 .border-dashed {
   width: 100%;
-  border: 1px dashed #333333;
+  border: 1px dotted #66e0ff;
 }
 
 .name-logo-div {
@@ -59,17 +60,29 @@ section.parallax {
   font-size: 50px;
 }
 
+.logo {
+  max-width: 40%;
+  margin: 5% auto 5% auto;
+  opacity: .8;
+}
+
+.logo:hover {
+  opacity: 1;
+}
+
 .name {
-  margin: auto auto 20% auto;
+  margin: auto auto 5% auto;
+  text-shadow: 2px 2px 6px #105c70;
 }
 
 a {
-  color: #3c85ea;
+  color: #0080ff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ebf2fc;
+  color: #0080ff;
+  text-shadow: 1px 1px  5px #105c70;
   text-decoration: none;
 }
 
@@ -81,19 +94,8 @@ a:hover #projectPic {
   opacity: 1;
 }
 
-.logo {
-  max-width: 7em;
-  background: #555555;
-  opacity: .8;
-  border: 2px solid #eeeeee;
-  margin: 20% auto 20% auto;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.logo:hover {
-  opacity: 1;
+#projectPic {
+  max-width: 100%;
 }
 
 .intro {
@@ -104,9 +106,9 @@ a:hover #projectPic {
 
 .featured_work {
   text-align: center;
+  margin-left: 2.5%;
+  text-shadow: 2px 2px 6px #105c70;
 }
-
-
 
 /*=============
 =  Icon links =
@@ -114,14 +116,14 @@ a:hover #projectPic {
 
 .buttons {
     float: left;
-    margin-left: calc((100% - 169.2px) / 2);
+    margin-left: calc((100% - 155.4px) / 2);
 }
 
 .icon {
   display: inline-block;
   vertical-align: top;
   overflow: hidden;
-  margin: none;
+  margin: 0;
   width: 50px;
   height: 50px;
   font-size: 0;
@@ -171,14 +173,14 @@ a:hover #projectPic {
 = end of icon styles =
 ====================*/
 
-#projects {
-  text-align: center;
-  width: 100%;
-}
-
 .slides {
+  text-align: center;
   max-width: 80%;
   margin: 10%;
+}
+
+.project-slide {
+  margin: 0 2.5px;
 }
 
 .slick-dots li button:before
@@ -229,15 +231,15 @@ body {
 }
 
 .logo {
-  margin: 20px 0 20px 20px;
   float: left;
+  margin: 10% 0 0 20%;
   max-width: 10em;
 }
 
 .name {
   float: right;
-  margin: 20px 20px auto auto;
-  max-width: calc(50% - 190px);
+  margin: 0 15% 0 0;
+  max-width: 25%;
 }
 
 .name h1 {
@@ -256,12 +258,21 @@ h2 {
   text-align: left;
 }
 
+.slides {
+  max-width: 80%;
+  margin: 10%;
+}
+
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px) {
 
+body {
+  width: 70%;
+  margin: 0 15% 0 15%;
+}
 
 }
 
@@ -269,13 +280,5 @@ h2 {
 
 @media only screen and (min-width : 1200px) {
 
-body {
-  width: 60%;
-  margin: 0 20% 0 20%;
-}
-
-.name {
-  margin-top = 100
-}
 
 }
