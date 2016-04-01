@@ -53,9 +53,9 @@ projects.forEach(function(project){
 //col-xs-12 col-sm-4 col-md-4
 //projectPic img-responsive img-rounded
 	var projectHTML = '<div class="project-slide"><a href='+project.projectUrl+
-	' "><img class="img-responsive img-rounded" id="projectPic" src='+
+	' "><img class="img-responsive" id="projectPic" src='+
 	project.projectImg+' alt="Picture"/><h4>'+project.name+
-	'</h4></a><p>'+project.gitUrl+'</p></div>';
+	'</h4></a><p class="project-url">'+project.gitUrl+'</p></div>';
 
 	$('#projects').append(projectHTML);
 
