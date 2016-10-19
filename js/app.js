@@ -12,6 +12,17 @@
 
 		el.style.backgroundPosition = elBackgrounPos;
 
+var n = 20;
+
+function divide() {
+var a = n / n;
+
+	console.log(a);
+
+};
+divide();
+
+
 		});
 	};
 //end of parallax
