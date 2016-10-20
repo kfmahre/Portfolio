@@ -22,15 +22,15 @@ $grey-50: #fafafa;
 
 $white: #ffffff;
 
-$primary-900: #1A237E;
+$primary-900: #01579B;
 
-$primary-700: #303F9F;
+$primary-700: #0288D1;
 
-$primary-500: #3F51B5;
+$primary-500: #03A9F4;
 
-$accent-400: #FF3D00;
+$accent-400: #2979FF;
 
-$accent-200: #FF6E40;
+$accent-200: #448AFF;
 
 /** LESS MIX-INS **/
 @mixin box-shadow-inset($x:0, $y:0, $blur:10px, $color:rgba(0,0,0,0.5)){
@@ -171,9 +171,9 @@ html {
 
 html, body {
   font-family: 'Lato', sans-serif;
-  background-color: #3F4B4E;
   color: #E0E2E4;
   font-weight: 500;
+  background-color: $primary-900;
 }
 
 header, footer {
