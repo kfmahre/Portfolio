@@ -63,10 +63,10 @@ var projects = [
 projects.forEach(function(project){
 //col-xs-12 col-sm-4 col-md-4
 //projectPic img-responsive img-rounded
-	var projectHTML = '<div class="project-slide"><a href='+project.projectUrl+
-	' "><img class="img-responsive" id="projectPic" src='+
-	project.projectImg+' alt="Picture"/><h4>'+project.name+
-	'</h4></a><p class="project-url">'+project.gitUrl+'</p></div>';
+	var projectHTML = '<div class="card text-xs-center"><a href='+project.projectUrl+
+	' "><img class="card-img-top fit" id="projectPic" src='+
+	project.projectImg+' alt="Picture"/><h4 "card-title text-thin">'+project.name+
+	'</h4></a><footer><small class="text-muted"><p class="project-url">'+project.gitUrl+'</p></small></footer></div>';
 
 	$('#projects').append(projectHTML);
 
