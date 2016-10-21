@@ -162,8 +162,8 @@ body {
 
 section.content {
   background-color: $primary-500;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
+  border-top: 3px solid rgba(0,0,0,0.5);
+  border-bottom: 3px solid rgba(0,0,0,0.5);
 }
 
 section.parallax {
@@ -173,7 +173,7 @@ section.parallax {
 
 .border-main {
   width: 100%;
-  border: 5px solid rgba(0,0,0,0.5);
+  border: 3px solid rgba(0,0,0,0.5);
 }
 
 .name-logo-div {
@@ -208,7 +208,6 @@ img.my-picture:hover {
 
 .name {
   margin: auto auto 5% auto;
-  text-shadow: 2px 2px 6px #BFBFBF;
   color: $accent-400;
 }
 
@@ -232,6 +231,10 @@ a:hover #projectPic {
 
 #projectPic {
   max-width: 100%;
+}
+
+.project-url {
+  color: $accent-200;
 }
 
 .intro {
@@ -372,7 +375,7 @@ footer {
 }
 
 /*==================================================
-=            Bootstrap 3 Media Queries             =
+=            Bootstrap Media Queries             =
 ==================================================*/
 
   /*==========  Mobile First Method  ==========*/
