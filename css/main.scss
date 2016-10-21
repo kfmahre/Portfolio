@@ -137,10 +137,10 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: linear-gradient(to bottom right, $grey-400, $grey-700); /* Standard syntax */
-  -webkit-background: -webkit-linear-gradient(left top, $grey-400, $grey-700); /* For Safari 5.1 to 6.0 */
-  -o-background: -o-linear-gradient(bottom right, $grey-400, $grey-700); /* For Opera 11.1 to 12.0 */
-  -moz-background: -moz-linear-gradient(bottom right, $grey-400, $grey-700); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, $primary-500, $primary-900); /* Standard syntax */
+  -webkit-background: -webkit-linear-gradient(left top, $primary-500, $primary-900); /* For Safari 5.1 to 6.0 */
+  -o-background: -o-linear-gradient(bottom right, $primary-500, $primary-900); /* For Opera 11.1 to 12.0 */
+  -moz-background: -moz-linear-gradient(bottom right, $primary-500, $primary-900); /* For Firefox 3.6 to 15 */
 }
 
 html, body {
