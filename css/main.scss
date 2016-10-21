@@ -28,6 +28,8 @@ $primary-700: #303F9F;
 
 $primary-500: #3F51B5;
 
+$primary-300: #7986CB;
+
 $accent-400: #00B0FF;
 
 $accent-200: #40C4FF;
@@ -137,10 +139,10 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: linear-gradient(to bottom right, $primary-500, $primary-900); /* Standard syntax */
-  -webkit-background: -webkit-linear-gradient(left top, $primary-500, $primary-900); /* For Safari 5.1 to 6.0 */
-  -o-background: -o-linear-gradient(bottom right, $primary-500, $primary-900); /* For Opera 11.1 to 12.0 */
-  -moz-background: -moz-linear-gradient(bottom right, $primary-500, $primary-900); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, $primary-300, $primary-900); /* Standard syntax */
+  -webkit-background: -webkit-linear-gradient(left top, $primary-300, $primary-900); /* For Safari 5.1 to 6.0 */
+  -o-background: -o-linear-gradient(bottom right, $primary-300, $primary-900); /* For Opera 11.1 to 12.0 */
+  -moz-background: -moz-linear-gradient(bottom right, $primary-300, $primary-900); /* For Firefox 3.6 to 15 */
 }
 
 html, body {
@@ -178,7 +180,7 @@ section.parallax {
 
 .border-main {
   width: 100%;
-  @include box-shadow-inset(5px,5px,5px,rgba(0,0,0,0.5));
+  border: 3px solid $primary-900;
 }
 
 .name-logo-div {
