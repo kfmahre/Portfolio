@@ -168,8 +168,6 @@ body {
 
 section.content {
   background-color: $primary-500;
-  border-top: 3px solid rgba(0,0,0,0.5);
-  border-bottom: 3px solid rgba(0,0,0,0.5);
 }
 
 section.parallax {
@@ -180,7 +178,7 @@ section.parallax {
 
 .border-main {
   width: 100%;
-  border: 3px solid rgba(0,0,0,0.5);
+  @include box-shadow-inset(3,3,5px,rgba(0,0,0,0.5))
 }
 
 .name-logo-div {
