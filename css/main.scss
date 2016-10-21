@@ -171,9 +171,9 @@ section.parallax {
   background-image: url("darkgraph.png");
 }
 
-.border-dashed {
+.border-main {
   width: 100%;
-  border: 5px dotted transparent;
+  border: 5px solid rgba(0,0,0,0.5);
 }
 
 .name-logo-div {
@@ -193,7 +193,7 @@ img.my-picture {
   display: block;
   margin: 5% auto 5% auto;
   max-width: 40%;
-  border: 5px solid $primary-900;
+  border: 2px solid $primary-500;
   opacity: 0.6;
   filter: alpha(opacity=60);
   -webkit-border-radius: 50%;
@@ -244,7 +244,6 @@ a:hover #projectPic {
   text-align: center;
   margin-left: 2.5%;
   color: $accent-400;
-  text-shadow: 2px 2px 6px $grey-500;
 }
 
 /*=============
