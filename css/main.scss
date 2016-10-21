@@ -144,6 +144,7 @@ html, body {
   color: $white;
   font-weight: 500;
   background-color: $grey-400;
+  @include box-shadow(1px,1px,5px,rgba(0,0,0,0.5));
 }
 
 header, footer {
@@ -173,7 +174,7 @@ section.parallax {
 
 .border-main {
   width: 100%;
-  @include box-shadow(1px,1px,5px,rgba(0,0,0,0.5));
+  border: 5px solid $primary-900;
 }
 
 .name-logo-div {
