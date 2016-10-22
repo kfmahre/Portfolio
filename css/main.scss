@@ -171,9 +171,10 @@ section.content {
 }
 
 section.parallax {
-  background-color: $black;
-  background-image: url("darkgraph.png");
-  z-index: 0;
+  background: linear-gradient(to bottom right, #FFC107, #F44336); /* Standard syntax */
+  -webkit-background: -webkit-linear-gradient(left top, #FFC107, #F44336); /* For Safari 5.1 to 6.0 */
+  -o-background: -o-linear-gradient(bottom right, #FFC107, #F44336); /* For Opera 11.1 to 12.0 */
+  -moz-background: -moz-linear-gradient(bottom right, #FFC107, #F44336); /* For Firefox 3.6 to 15 */
 }
 
 .border-main {
