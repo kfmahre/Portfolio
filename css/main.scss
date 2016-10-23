@@ -172,8 +172,8 @@ section.content {
 
 section.parallax {
 background-color: $black;
-background-image: linear-gradient(white 2px, transparent 2px),
-linear-gradient(90deg, white 2px, transparent 2px),
+background-image: linear-gradient(white 1px, transparent 2px),
+linear-gradient(90deg, white 1px, transparent 2px),
 linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
 linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
 background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
