@@ -172,8 +172,8 @@ section.content {
 
 section.parallax {
 background-color: $black;
-background-image: linear-gradient(rgba(255,255,255,.5) 2px, transparent 2px),
-linear-gradient(90deg, rgba(255,255,255,.5) 2px, transparent 2px),
+background-image: linear-gradient(rgba(255,255,255,.2) 2px, transparent 2px),
+linear-gradient(90deg, rgba(255,255,255,.2) 2px, transparent 2px),
 linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
 linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
 background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
@@ -203,7 +203,7 @@ img.my-picture {
   margin: 5% auto 5% auto;
   max-width: 40%;
   border: 2px solid $primary-500;
-  opacity: 0.6;
+  opacity: 0.8;
   filter: alpha(opacity=60);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -213,6 +213,7 @@ img.my-picture {
 
 img.my-picture:hover {
   opacity: 1;
+  transition: 0.2s;
   filter: alpha(opacity=100);
 }
 
