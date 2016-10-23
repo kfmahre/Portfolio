@@ -171,6 +171,8 @@ section.content {
   -webkit-background: -webkit-linear-gradient(left top, $primary-900, $primary-300); /* For Safari 5.1 to 6.0 */
   -o-background: -o-linear-gradient(bottom right, $primary-900, $primary-300); /* For Opera 11.1 to 12.0 */
   -moz-background: -moz-linear-gradient(bottom right, $primary-900, $primary-300); /* For Firefox 3.6 to 15 */
+  border-top: 2px solid rgba(63, 81, 181, .2);
+  border-bottom: 2px solid rgba(63, 81, 181, .2);
 }
 
 section.parallax {
@@ -185,7 +187,7 @@ background-position:0px 0px, 0px 0px, 0px 0px, 0px 0px
 
 .border-main {
   width: 100%;
-  border: 5px solid rgba(63, 81, 181, .5);
+  border: 2px solid rgba(63, 81, 181, .2);
 }
 
 .name-logo-div {
