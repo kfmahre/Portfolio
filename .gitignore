@@ -39,3 +39,6 @@ node_modules/
 _site
 gulpfile.js
 .gitignore
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
