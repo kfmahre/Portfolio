@@ -456,6 +456,7 @@ footer .footer-below {
 }
 
 .my-picture {
+  max-width: 25%;
   border: 2px solid #{{ site.color.secondary-dark }} !important;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
