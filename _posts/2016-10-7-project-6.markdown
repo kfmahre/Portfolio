@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 6
+date: 2016-10-07
+img: blog.png
+alt: image-alt
+project-date: October 2016
+client: Start Bootstrap
+category: Web Development
+description: Built a multi user blog(along the lines of Medium) where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. Hosted on Google App Engine. Users authenticated to register and sign in and then create blog posts! <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>.
+
+---
