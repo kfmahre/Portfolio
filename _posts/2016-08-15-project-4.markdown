@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 4
+date: 2016-08-15
+img: game.png
+alt: image-alt
+project-date: August 2016
+client: Udacity Project
+category: Web Development
+description: An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript. <a href="https://github.com/kfmahre/arcade-game/">Github repository</a>. Or play the game live on:<a href="http://kfmahre.github.io/arcade-game/">gh-pages</a>
+
+---
