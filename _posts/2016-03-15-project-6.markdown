@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 6
+date: 2016-03-15
+img: angular.png
+alt: image-alt
+project-date: February 6
+client: personal project
+category: Front-end Web Development
+description: I put this little project together following along with the shaping up with angular course at codeschool. It was a joy to go through for the most part. Also, with the best interest of learning new things, I made the design resposive with bootstrap 4. <a href="http://kfmahre.github.io/angular_store/"><strong><p>Live</p></strong></a>
+
+---
