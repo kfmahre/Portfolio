@@ -7,6 +7,6 @@ alt: image-alt
 project-date: February 6
 client: Udacity Project
 category: Full Stack Web Development
-description: Developed an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.<a href="https://github.com/kfmahre/catalog"><strong><p> Github repo</p></strong></a>.
+description: Developed an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items. <a href="https://github.com/kfmahre/catalog"><strong><p>Github repo</p></strong></a>
 
 ---

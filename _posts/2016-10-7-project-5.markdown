@@ -7,6 +7,6 @@ alt: image-alt
 project-date: October 2016
 client: Udacity Project
 category: Full Stack Web Development
-description: Built a multi user blog(along the lines of Medium) where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. Hosted on Google App Engine. Users authenticated to register and sign in and then create blog posts! <a href="https://github.com/kfmahre/Multi-user-blog"><p>Github Repo</p></a> <a href="https://aerobic-entropy-140704.appspot.com/blog/"><strong><p> Live</p></strong></a>.
+description: Built a multi user blog(along the lines of Medium) where users can sign in and post blog posts as well as 'Like' and 'Comment' on other posts made on the blog. Hosted on Google App Engine. Users authenticated to register and sign in and then create blog posts! <a href="https://github.com/kfmahre/Multi-user-blog"><p>Github Repo</p></a> <a href="https://aerobic-entropy-140704.appspot.com/blog/"><strong><p>Live</p></strong></a>
 
 ---
