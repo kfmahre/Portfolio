@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2016-08-22
-img: game.png
+img: agame.png
 alt: image-alt
 project-date: August 2016
 client: Udacity Project
