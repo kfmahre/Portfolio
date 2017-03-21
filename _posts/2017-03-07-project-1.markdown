@@ -1,12 +1,12 @@
 ---
 layout: default
-modal-id: 2
+modal-id: 1
 date: 2017-03-07
 img: serve.png
 alt: image-alt
 project-date: March 2017
 client: Udacity Project
 category: Web Development
-description: Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server into a fully functional web application server, including Apache Web Server and PostgreSQL database server. <a href="https://github.com/kfmahre/server-configuration">Github Repo</a>.
+description: Installed and configured all required software to turn a baseline Ubuntu Amazon Web Services server into a fully functional web application server, including Apache Web Server and PostgreSQL database server.<a href="https://github.com/kfmahre/server-configuration"><strong><p> Github Repo</p></strong></a>.
 
 ---
