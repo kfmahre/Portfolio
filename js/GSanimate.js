@@ -1,5 +1,5 @@
 (function($) {
 
-  TweenMax.to($('#myPicture'), 6, {rotationY:360, transformPerspective:1600, transformOrigin:"50% 50%"});
+  TweenMax.to($('#myPicture'), 6, {ease:Bounce.easeOut, rotationY:360, transformPerspective:1600, transformOrigin:"50% 50%"});
 
 })(jQuery);
