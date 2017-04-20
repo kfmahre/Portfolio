@@ -1,1 +1,2 @@
-TweenMax.to(".my-picture", 2, {transformPerspective:200})
+
+TweenMax.to(".my-picture", 2, {left:200});
