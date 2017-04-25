@@ -4,7 +4,7 @@
 
   $('.hoverShadow').hover(function(){
     TweenMax.to($(this), 0.5, {opacity:.9, textShadow:"2px 2px 1 #FAFAFA"});
-    TweenMax.to($(this), 0.5, {opacity:1, textShadow:"none", delay:0.5});
+    TweenMax.to($(this), 0.5, {opacity:1, textShadow:"0px 0px 0 #FAFAFA", delay:0.5});
   });
 
 })(jQuery);
