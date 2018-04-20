@@ -34,7 +34,7 @@ By using a these words, you remove any confusion about which noun you’re refer
 
 *Do you want <ins>this</ins> water bottle or <ins>that</ins> orange juice? It’s your choice.
 Would you prefer <ins>these</ins> paintings or <ins>those</ins> ones?*
-Do you want a few more examples? Continue reading or [find more info](grammar.yourdictionary.com/parts-of-speech/adjectives/demonstrative-adjectives.html) about limiting words here.
+Do you want a few more examples? Continue reading or [find more info](https://grammar.yourdictionary.com/parts-of-speech/adjectives/demonstrative-adjectives.html) about limiting words here.
 Let’s review: What is a demonstrative adjective?
 There are four different demonstrative adjectives to memorize: this, that, these, and those. They are words that remove confusion by telling the reader or listener which specific noun you’re referring to. Since there are only four, it’s not too difficult to remember, right? The tricky thing is when to use each specific word and how to use them all.
 
@@ -60,7 +60,7 @@ You use that when something is further away from you.
 
 In this example, the speaker is talking about someone else’s dress that’s perhaps not directly in front of the speaker.
 
-Since you know a bit about limiting singular nouns, you can incorporate them into your writing. If you want to make sure your writing is polished, try out this [plagiarism checker](https://www.citationmachine.net/grammar-and-plagiarism/). It even creates citations in [APA format](www.citationmachine.net/apa/cite-a-book)!
+Since you know a bit about limiting singular nouns, you can incorporate them into your writing. If you want to make sure your writing is polished, try out this [plagiarism checker](https://www.citationmachine.net/grammar-and-plagiarism/). It even creates citations in [APA format](https://www.citationmachine.net/apa/cite-a-book)!
 
 ## **What about plural nouns?**
 
@@ -89,7 +89,7 @@ If you replace a noun with either this, that, these, or those, then these words 
 Do you want <ins>these</ins>, Alex?*
 In both these examples that and these are replacing a noun. Therefore, they’re pronouns instead of limiting nouns.
 
-Before you test your understanding with a few exercises, take a second to review [MLA format](www.citationmachine.net/mla/cite-a-website) and learn about [more styles](www.citationmachine.net) of creating citations.
+Before you test your understanding with a few exercises, take a second to review [MLA format](https://www.citationmachine.net/mla/cite-a-website) and learn about [more styles](https://www.citationmachine.net) of creating citations.
 
 ## **Practice Exercises**
 
