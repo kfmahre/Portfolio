@@ -6,7 +6,7 @@ Demonstrative Adjective Examples and Description"
 description: "What is a demonstrative adjective? Learn why demonstrative adjectives are so important and find demonstrative adjective examples here!
 What is a demonstrative adjective? These words help you describe nouns. Learn about demonstrative adjectives and find demonstrative adjective examples inside!"  
 ---
-# Demonstrative Adjectives & Examples
+# <h1 style="font-weight:normal;">Demonstrative Adjectives & Examples</h1>
 
 A demonstrative adjective is a type of limiting word. Whereas some words give more information about nouns, limiting words indicate which noun you’re referring to.
 
